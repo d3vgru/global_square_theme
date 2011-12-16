@@ -1,0 +1,247 @@
+*, body {
+  color: #222;
+}
+
+a {
+  color: #666;
+}
+a, a:active, a:hover {
+  text-decoration: none;
+}
+a:active, a:hover {
+  color: #444;
+}
+
+h1, h2, h2 em {
+  color: #c66;
+  margin-top: 0;
+}
+h1.title {
+  color: black;
+}
+
+input[type="submit"] {
+  background-color: #eee;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  margin: -1px 0 0;
+  padding: 0.25em 0.5em;
+}
+
+#content-area > form > div > table,
+#content-area .view-content > table {
+/*  width: 780px; */
+  width: 99%;
+}
+
+#content-area > form > div > table td,
+#content-area .view-content > table td {
+  max-width: 400px;
+}
+
+form tbody {
+  border-top: 0px;
+}
+table {
+  margin-top: 0;
+}
+td p {
+  margin: 0;
+}
+td.active {
+  background-color: #eee;
+}
+thead th, form thead th {
+  border-bottom: 0px;
+}
+th, thead th, tbody th, td, tbody td {
+  padding: 10px;
+}
+th, thead th, tbody th {
+  padding-top: 0;
+}
+tr.even, tr.odd {
+  background-color: transparent;
+  border-bottom: 0;
+  border-top: 1px solid #ccc;
+}
+td a {
+  color: #666;
+}
+
+ul.menu ul.menu {
+  padding-top: 10px;
+}
+
+.block {
+  background-color: #fdd;
+  border: 2px solid #444;
+}
+.block label {
+  color: #844;
+}
+.block-logintoboggan {
+  padding: 10px 15px;
+}
+.block-user {
+  border: 2px solid #c66;
+}
+.block-user a, h2 a {
+  color: #a44;
+}
+.block.block-lang_dropdown, #footer .block {
+  background-color: transparent;
+  border: 0;
+  padding-left: 0;
+}
+.block .edit span {
+  padding: 0 1em;
+}
+.block ul,
+.region-sidebar-first .form-item,
+.region-sidebar-first .form-submit {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.block ul,
+.region-sidebar-first .form-item  {
+  padding-left: 0;
+}
+.block ul li,
+.item-list ul li,
+.region-sidebar-first ul.menu li.collapsed,
+.region-sidebar-first ul.menu li.leaf {
+  list-style: none;
+  list-style-image: none;
+  list-style-type: none;
+}
+.region-sidebar-first .block {
+  border-left: 0;
+}
+.region-sidebar-first ul.menu li ul li a {
+  font-size: 14px;
+}
+.region-sidebar-first .menu a {
+  font-size: 18px;
+}
+.region-sidebar-first .item-list li,
+.region-sidebar-first .menu li {
+  margin-bottom: 10px;
+}
+.region-sidebar-first .item-list li,
+.region-sidebar-first div > .menu > li {
+  border-top: 1px solid #e88;
+  padding-top: 10px;
+}
+.region-sidebar-first .section .block-user:first-child {
+  border-top: 0;
+}
+.region-sidebar-first .section .block-user:first-child  {
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.groups {
+  padding-left: 15px;
+}
+
+.nice_links {
+  clear: both;
+}
+
+.node {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1em;
+}
+
+.facebook-status-update {
+  padding-right: 1em;
+  width: auto;
+}
+.facebook-status-textarea-wrapper textarea {
+  width: 99%;
+}
+
+.taskbar-item {
+  min-width: 50px;
+}
+
+.views-field-timestamp {
+  min-width: 150px;
+}
+
+#edit-destination-address-mail-wrapper {
+  display: none;
+}
+
+#header-bumper {
+  padding: 15px 0 0 180px;
+}
+#logo {
+  padding: 15px 0 0 15px;
+}
+#logo-wrapper {
+  background-color: #fdd;
+  border-right: 2px solid #c66;
+  height: 100px;
+  width: 158px;
+}
+#logo-wrapper, .nice_links {
+  float: left;
+}
+#main-menu {
+  border-bottom: 2px solid #c66;
+}
+#navigation {
+  width: auto;
+}
+#title-wrapper {
+  margin-top: 32px;
+  float: left;
+}
+#navigation a {
+  font-size: 24px;
+}
+#navigation li {
+  padding-right: 30px;
+}
+#navigation li.last {
+  padding-right: 0;
+}
+#search-box, #utility-nav {
+  float: right;
+  margin-right: 1em;
+}
+#utility-nav {
+  clear: right;
+}
+
+#cluetip ul.links li {
+  padding: 0 8px 0 -8px;
+}
+
+#taskbar .item-list ul {
+  padding-left: 10px;
+}
+#taskbar .item-list ul li {
+  border-bottom: 1px solid #ccc;
+}
+
+#user-login-form li.openid-link {
+  margin-left: 0;
+}
+
+
+/* wrap long text */
+a, p, pre, td {
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */
+}
